@@ -35,7 +35,7 @@ double funcOpenMP()
     std::chrono::duration<double> elapsed = end - start;
 
     std::cout << " Значение числа pi: " << std::setprecision(13) << pi << std::endl;
-    std::cout << " Затраты по времени (мс): " << elapsed.count() << "сек";
+    std::cout << " Затраты по времени: " << elapsed.count() << "сек";
     
     return pi;
 }
